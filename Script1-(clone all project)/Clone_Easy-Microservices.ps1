@@ -1,4 +1,4 @@
-﻿#Copyright (c)  "Mahdi Delzendeh"  date 2022-12-18
+﻿#Copyright (c)  "https://github.com/EasyMicroservices "  date 2023-01-08
 #Script for Git clone  All project from Json file
 # Permission is hereby granted, free of charge, to any person
 # obtaining a copy of this software and associated documentation
