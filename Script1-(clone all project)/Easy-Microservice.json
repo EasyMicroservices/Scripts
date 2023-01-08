@@ -98,7 +98,7 @@ add new project in each section
   }   ,
   /*EasyMicroServices frontend component */
   {
-    "Directory": "D:\\EasyMicroServices\\Front-End\\Micro-Services",
+    "Directory": "D:\\EasyMicroServices\\Front-End\\components",
     "Projects": [
       {
         "FolderName": "Blazor",
