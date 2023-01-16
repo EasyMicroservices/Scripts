@@ -25,7 +25,10 @@ Function Update-Fork{
     [string]$stopDir= ".git",
 	# canUpdateAllBranches: =0 ==> not alloawed update other branches
 	# canUpdateAllBranches: =1 ==> alloawed update other branches
-    [bool]$canUpdateAllBranches= 0	
+    [bool]$canUpdateAllBranches= 0,
+    # canPushToOrigin: =0 ==> not alloawed push to  orgin
+    # canPushToOrigin: =1 ==> alloawed push to  orgin
+    [bool] $canPushToOrigin=0	
  )
  
  if ($targetDir){
@@ -52,6 +55,9 @@ Function Update-Fork{
 			     $curBranch = $curBranch.Trim();
 		         Write-Host("..........................updating current branch '" + $curBranch + "' ..........................") -ForegroundColor Red;
 				 git pull upstream $curBranch;
+				 if($canPushToOrigin){
+					 git push origin $curBranch;
+				 }
 				 if($canUpdateAllBranches){
 					    $branches = $(git branch);
 					    foreach($branch in $branches) {
@@ -64,6 +70,10 @@ Function Update-Fork{
 					         git checkout "$branch" -q;
             
 					         git pull upstream $branch;
+							 if($canPushToOrigin){
+								 git push origin $branch;
+								
+				              }
 					
 				            }
 					    }
