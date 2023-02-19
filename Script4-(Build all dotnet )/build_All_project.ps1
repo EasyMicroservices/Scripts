@@ -20,7 +20,7 @@ Function Build-Project{
 	# $targetDir: refer to directory where you want run this script
 	[string]$targetDir,
 	# $excludeRepos: refer to folder name where you will not check by script
-    [string]$excludeRepos= "GitHub,Publisher2.1.6,Utravs-SSR",
+    [string]$excludeRepos= "GitHub",
 	# $stopDir: the folder name where you stop go in deeps of directory: here is .git folder
     [string]$stopDir= ".git",
 	#find solution name
