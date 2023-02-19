@@ -24,7 +24,7 @@ Function Build-Project{
 	# $stopDir: the folder name where you stop go in deeps of directory: here is .git folder
     [string]$stopDir= ".git",
 	#find solution name
-	[string]$CompileProj1= "FullDebug.sln"
+	[string]$CompileProj1= ".sln"
 	
 	)
  
