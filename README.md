@@ -64,3 +64,16 @@ you have foolow option
   # canPushToOrigin: =1 ==> alloawed push to  orgin
   [bool] $canPushToOrigin=0	
   ```
+## Script4-(Build all dotnet )
+Script for build all prtoject in directory .
+
+```ps1
+    # $targetDir: refer to directory where you want run this script
+    [string]$targetDir,
+    # $excludeRepos: refer to folder name where you will not check by script
+    [string]$excludeRepos= "GitHub",
+    # $stopDir: the folder name where you stop go in deeps of directory: here is .git folder
+    [string]$stopDir= ".git",
+    #find solution name
+    [string]$CompileProj1= ".sln"
+```
