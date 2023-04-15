@@ -2,7 +2,7 @@
 use full scripts for manage your projects.
 ## Script1-(clone all project)
 by use this script you can clone all project by define folder structure, the following json model is use for define foldering structure:
-```
+```javascript
 [
   {
      "Directory":"your path",
@@ -26,25 +26,41 @@ you can download sample here [Easy-Microservice.json](https://github.com/mahdide
 by use this script you can Set your fork address and upstream address, infact this script replace your orgin with yor fork and set your old origin for your upstream,
 you can have follow option:
 - $targetDir: allow you chose a root folder for run script.
-```
+```ps1
 [string]$targetDir="D:\\EasyMicroServices",
 ```
 - $excludeRepos: allow you skip some folder name in your root folder, the script command dont run in this folders.
-```	
+```	ps1
 [string]$excludeRepos= "GitHub,Projects",
 ```
 
 - $stopDir:the folder name where you stop go in deeps of directory: here is .git folder
-```
+```ps1
 [string]$stopDir= ".git",
 ```
 - $yourFork:yourfork url specification
-```
+```ps1
 [string]$yourFork="mahdidelzendeh72",
 ```
 - $upstreamFork: upstream fork url specification
-```	
+```ps1	
 [string]$upstreamFork="EasyMicroservices"	
 ```
 ## Script3-(update your fork from upstream)
 Easily update and synce your fork from upstream fork by one click!!
+you have foolow option
+```ps1
+
+  # $targetDir: refer to directory where you want run this script
+	[string]$targetDir,
+	# $excludeRepos: refer to folder name where you will not check by script
+  [string]$excludeRepos= "GitHub,Projects",
+	# $stopDir: the folder name where you stop go in deeps of directory: here is .git folder
+  [string]$stopDir= ".git",
+	# canUpdateAllBranches: =0 ==> not alloawed update other branches
+	# canUpdateAllBranches: =1 ==> alloawed update other branches
+  [bool]$canUpdateAllBranches= 0,
+  # canPushToOrigin: =0 ==> not alloawed push to  orgin
+  # canPushToOrigin: =1 ==> alloawed push to  orgin
+  [bool] $canPushToOrigin=0	
+  ```
