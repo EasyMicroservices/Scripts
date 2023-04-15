@@ -19,5 +19,5 @@ by use this script you can clone all project by define folder structure, the fol
 ]
 
 ```
-you can download sample here [Easy-Microservice.json](Easy-Microservice.json).
+you can download sample here [Easy-Microservice.json](./Script1-(clone all project)/Easy-Microservice.json).
 #### Tip: use multy-Line format comment `/* your comment*/`  for comment on your json file. dont use single line format comment `//coment`.
