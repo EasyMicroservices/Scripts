@@ -52,13 +52,13 @@ you have foolow option
 ```ps1
 
   # $targetDir: refer to directory where you want run this script
-	[string]$targetDir,
-	# $excludeRepos: refer to folder name where you will not check by script
+  [string]$targetDir,
+  # $excludeRepos: refer to folder name where you will not check by script
   [string]$excludeRepos= "GitHub,Projects",
-	# $stopDir: the folder name where you stop go in deeps of directory: here is .git folder
+  # $stopDir: the folder name where you stop go in deeps of directory: here is .git folder
   [string]$stopDir= ".git",
-	# canUpdateAllBranches: =0 ==> not alloawed update other branches
-	# canUpdateAllBranches: =1 ==> alloawed update other branches
+  # canUpdateAllBranches: =0 ==> not alloawed update other branches
+  # canUpdateAllBranches: =1 ==> alloawed update other branches
   [bool]$canUpdateAllBranches= 0,
   # canPushToOrigin: =0 ==> not alloawed push to  orgin
   # canPushToOrigin: =1 ==> alloawed push to  orgin
