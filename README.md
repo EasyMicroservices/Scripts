@@ -2,18 +2,18 @@
 use full scripts for manage your projects.
 ## Script1-(clone all project)
 by use this script you can clone all project by define folder structure, the following json model is use for define foldering structure:
-```javascript
+```js
 [
   {
      "Directory":"your path",
-     "Projects":[{"FolderName":"name of your repo folder","Address":"github url"},......],
+     "Projects":[{"FolderName":"name of your repo folder","Address":"github url"},{"FolderName":"name of your repo folder","Address":"github url"}],
      "SubDirectory":[ 
        {
           "Directory":"your path",
           "Projects":[],
           "SubDirectory":[]
        },
-    ....
+    
      ]
  }
 ]
