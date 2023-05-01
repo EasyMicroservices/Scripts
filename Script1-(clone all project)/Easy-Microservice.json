@@ -22,10 +22,6 @@ add new project in each section
     "Directory": "D:\\EasyMicroServices\\Back-End\\Components",
     "Projects": [
       {
-        "FolderName": "Compression",
-        "Address": "https://github.com/EasyMicroservices/Compression.git"
-      },
-      {
         "FolderName": "FileManager",
         "Address": "https://github.com/EasyMicroservices/FileManager.git"
       },
