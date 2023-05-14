@@ -96,68 +96,7 @@ add new project in each section
       {
         "FolderName": "WebHook",
         "Address": "https://github.com/EasyMicroservices/WebHook.git"
-      },
-      {
-        "FolderName": "Translator",
-        "Address": "https://github.com/EasyMicroservices/Translator-Microservice.git"
-      },
-      {
-        "FolderName": "Discount",
-        "Address": "https://github.com/EasyMicroservices/Discount-Microservice.git"
-      },
-      {
-        "FolderName": "Monitoring",
-        "Address": "https://github.com/EasyMicroservices/Monitoring-Microservice.git"
-      },
-      {
-        "FolderName": "Places",
-        "Address": "https://github.com/EasyMicroservices/Places-Microservice.git"
-      },
-      {
-        "FolderName": "Comments",
-        "Address": "https://github.com/EasyMicroservices/Comments-Microservice.git"
-      },
-      {
-        "FolderName": "Tenants",
-        "Address": "https://github.com/EasyMicroservices/Tenants-Microservice.git"
-      },
-      {
-        "FolderName": "Links",
-        "Address": "https://github.com/EasyMicroservices/Links-Microservice.git"
-      },
-      {
-        "FolderName": "SMS",
-        "Address": "https://github.com/EasyMicroservices/SMS-Microservice.git"
-      },
-      {
-        "FolderName": "Emails",
-        "Address": "https://github.com/EasyMicroservices/Emails-Microservice.git"
-      },
-      {
-        "FolderName": "Contents",
-        "Address": "https://github.com/EasyMicroservices/Contents-Microservice.git"
-      },
-      {
-        "FolderName": "Orders",
-        "Address": "https://github.com/EasyMicroservices/Orders-Microservice.git"
-      },
-      {
-        "FolderName": "Views",
-        "Address": "https://github.com/EasyMicroservices/Views-Microservice.git"
-      },
-      {
-        "FolderName": "Storage",
-        "Address": "https://github.com/EasyMicroservices/Storage-Microservice.git"
-      },
-      {
-        "FolderName": "Payments",
-        "Address": "https://github.com/EasyMicroservices/Payments-Microservice.git"
-      },
-      {
-        "FolderName": "Credits",
-        "Address": "https://github.com/EasyMicroservices/Credits-Microservice.git"
       }
-
     ],
     "SubDirectory":[]
   }   ,
