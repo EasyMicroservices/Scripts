@@ -22,6 +22,10 @@ add new project in each section
     "Directory": "D:\\EasyMicroServices\\Back-End\\Components",
     "Projects": [
       {
+        "FolderName": "Cores",
+        "Address": "https://github.com/EasyMicroservices/Cores.git"
+      },
+      {
         "FolderName": "Compression",
         "Address": "https://github.com/EasyMicroservices/Compression.git"
       },
