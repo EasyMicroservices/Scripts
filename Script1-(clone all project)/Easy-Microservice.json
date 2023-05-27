@@ -32,11 +32,7 @@ add new project in each section
       {
         "FolderName": "FileManager",
         "Address": "https://github.com/EasyMicroservices/FileManager.git"
-      },
-      {
-        "FolderName": "Scripts",
-        "Address": "https://github.com/EasyMicroservices/Scripts.git"
-      },
+      },      
       {
         "FolderName": "Utilities",
         "Address": "https://github.com/EasyMicroservices/Utilities.git"
@@ -172,6 +168,17 @@ add new project in each section
       {
         "FolderName": "Blazor",
         "Address": "https://github.com/EasyMicroservices/Blazor.git"
+      }
+    ],
+    "SubDirectory":[]
+  } ,
+  /*EasyMicroServices Project easy manager  */
+  {
+    "Directory": "D:\\EasyMicroServices\\Project-Managment",
+    "Projects": [
+      {
+        "FolderName": "Scripts",
+        "Address": "https://github.com/EasyMicroservices/Scripts.git"
       }
     ],
     "SubDirectory":[]
